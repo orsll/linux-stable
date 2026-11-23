@@ -3,7 +3,7 @@
 # This PKGBUILD is based on the one from the linux package in the core repo.
 
 pkgbase=linux-stable
-pkgver=7.3.4
+pkgver=7.3.6
 pkgrel=1
 pkgdesc='Linux stable'
 arch=(x86_64)
@@ -48,8 +48,8 @@ validpgpkeys=(
   647F28654894E3BD457199BE38DBBDC86092693E  # Greg Kroah-Hartman
   83BC8889351B5DEBBB68416EB8AC08600F108CDF  # Jan Alexander Steffens (heftig)
 )
-sha256sums=('afe466adff5d7ebdda5a8b921d76196b0bd45b330aabd4a39568ef7d60a9c0e4')
-sha256sums_x86_64=('bb03d28b8af371cd47eebf18378197c57e26c951d33c872d52ae97a2690d1ec6')
+sha256sums=('34edc9448357af14f1b351b6870093494e143bc0073e32d14afd9e9274380e3f')
+sha256sums_x86_64=('75366b057ddfafeb2c02a902aebdcbeb36ddcd56de74c82b1eadf4fac308555a')
 
 export KBUILD_BUILD_HOST=archlinux
 export KBUILD_BUILD_USER=$pkgbase
